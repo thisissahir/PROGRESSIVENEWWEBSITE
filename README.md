@@ -2,7 +2,7 @@
 
 Brand-new, premium dark-cinematic static site for [progressivecollective.in](https://progressivecollective.in) — a 360° audio house serving brands and artists.
 
-Scroll-driven experience: hero parallax, a pinned Mix & Master section, a horizontal release catalogue, brand marquees, and reveal-on-enter throughout. Smooth scroll via Lenis, animation via GSAP ScrollTrigger.
+Scroll-driven experience: an animated logo intro, hero parallax, a horizontal records catalogue driven by vertical scroll, a live credits ticker, and staggered reveals throughout. Smooth scroll via Lenis, animation via GSAP ScrollTrigger. Display type is Fraunces; the palette (ink + paper + amber/ember) is grounded in the client's real brand tokens.
 
 **Fully self-hosted** — every image, font, and script lives in `assets/`. Nothing loads from an external CDN, so the site is independent of Wix, cdnjs, jsdelivr, and Google Fonts. (The Spotify / SoundCloud / YouTube / Vimeo links are click-through destinations, not loaded assets.)
 
@@ -20,7 +20,7 @@ Vercel serves a `*.vercel.app` preview URL. Domain/DNS stays untouched until you
 - `index.html`, `vercel.json`, `assets/` — the deployable, self-hosted site (root)
   - `assets/img/` — photos, covers, logo (`pclogo.png`), favicon
   - `assets/js/` — Lenis, GSAP, ScrollTrigger (pinned versions)
-  - `assets/fonts/` — Space Grotesk + Inter woff2 files and `fonts.css`
+  - `assets/fonts/` — Fraunces, Space Grotesk, IBM Plex Mono woff2 files and `fonts.css`
 - `01_content-pack/` — source content
 - `02_copy/` — copy deck
 - `03_assets/` — visual system notes
